@@ -56,4 +56,4 @@ headers = ["name", "light_years_from_earth", "planet_mass", "stellar_magnitude",
 planet_df_1 = pd.DataFrame(planets_data, columns=headers)
 
 # Convert to CSV
-planet_df_1.to_csv('scrapped_data.csv',index=True, index_label="id")
+planet_df_1.to_csv('scraped_data.csv',index=True, index_label="id")
